@@ -9,7 +9,6 @@ using System.Text.RegularExpressions;
 using System.Xml;
 using ICSharpCode.AvalonEdit.Highlighting;
 using ICSharpCode.AvalonEdit.Highlighting.Xshd;
-using IvanAkcheurov.Commons;
 using Microsoft.Win32;
 using RegexTransformer.Annotations;
 
@@ -67,7 +66,7 @@ namespace RegexTransformer
 
 		private void OrignalTextEditorTextChanged(object sender, EventArgs e)
 		{
-			if (OriginalText.IsNullOrEmpty())
+			if (string.IsNullOrEmpty(OriginalText))
 			{
 				SetEditorLanguage("text");
 			}

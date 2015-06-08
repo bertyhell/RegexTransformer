@@ -45,15 +45,6 @@
     <Reference Include="ICSharpCode.AvalonEdit">
       <HintPath>..\packages\AvalonEdit.5.0.2\lib\Net40\ICSharpCode.AvalonEdit.dll</HintPath>
     </Reference>
-    <Reference Include="IvanAkcheurov.Commons">
-      <HintPath>..\packages\NTextCat.0.2.1.30\lib\net40\IvanAkcheurov.Commons.dll</HintPath>
-    </Reference>
-    <Reference Include="IvanAkcheurov.NClassify">
-      <HintPath>..\packages\NTextCat.0.2.1.30\lib\net40\IvanAkcheurov.NClassify.dll</HintPath>
-    </Reference>
-    <Reference Include="NTextCat">
-      <HintPath>..\packages\NTextCat.0.2.1.30\lib\net40\NTextCat.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Web" />
